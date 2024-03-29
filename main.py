@@ -15,3 +15,4 @@ match point:
         print(f"Точка має координати:  x={x}, y={y}") 
     case _:
         print("Це не точка")
+ 
