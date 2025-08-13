@@ -1,8 +1,4 @@
-my_dict = {"name": "Alice", "age": 25, "city": "New York"}
-print(my_dict["name"])  # Виведе 'Alice'
+value_a = input("Enter x:")
+value_b = input("Enter y:")
 
-print(my_dict)
-
-my_dict["age"] = 26  # Змінює вік на 26
-my_dict["email"] = "alice@example.com"  # Додає нову пару ключ-значення
-print(my_dict)
+print(eval(f'{value_a} + {value_b}'))
